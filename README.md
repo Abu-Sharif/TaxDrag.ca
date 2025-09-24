@@ -3,6 +3,7 @@
 TaxDrag.ca is a full-stack web application designed to simplify how Canadian investors understand the impact of **foreign withholding taxes (FWTs)** on their portfolios.  
 It allows users to build, explore, and compare ETF portfolios across different account types (RRSP, TFSA, Non-Registered) and visualize tax Inefficienies. 
 
+![Calculator](assets/HomePage.png)  
 ---
 
 ## Features
@@ -12,11 +13,14 @@ It allows users to build, explore, and compare ETF portfolios across different a
 - Visualize results with interactive charts (Chart.js).  
 - Anonymous portfolio creation supported with **UUID tracking** for non-signed-in users.  
 
+![Calculator](assets/Compare.png)  
 ---
 
 ## Tech Stack
 Backend: PHP, MySQL, Model-View-Controller Desgin Architecture  
 Frontend: HTML5, CSS3, JavaScript, jQuery, Chart.js  
+
+![Calculator](assets/Builder.png)  
 
 ---
 
