@@ -1,0 +1,30 @@
+.tooltip {
+    background-image: url('../images/tool_tip_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #5A5A59;
+    color: #ffffff;
+    padding: 6px 16px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    white-space: normal;
+    width: 300px;
+    visibility: hidden;
+}
+
+.tooltip:hover::after {
+    visibility: visible;
+}
